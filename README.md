@@ -65,7 +65,7 @@ nnUNetv2_train 523 3d_fullres_S4D2W32 all -tr nnUNetTrainer_Epoch5000_Lr1e3
 To perform inference, run:
 
 ```bash
-nnUNetv2_predict -i ./inputs -o ./outputs -c 3d_fullres_S4D2W32 -f all -d 24 -tr nnUNetTrainer_Epoch5000_Lr1e3
+nnUNetv2_predict -i ./inputs -o ./outputs -c 3d_fullres_S4D2W32 -f all -d 523 -tr nnUNetTrainer_Epoch5000_Lr1e3
 ```
 
 ## Evaluation
