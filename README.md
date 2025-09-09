@@ -80,3 +80,6 @@ nnUNetv2_evaluate_folder GT  your_prediction -djfile dataset.json -pfile  plans.
 | ------- | ----------------- | ------------- | ----------------- | ------ | ------- | ------ |
 |         | DSC(%)            | NSD(%)        | DSC(%)            | NSD(%) | DSC(%)  | NSD(%) |
 | Ours    | 53.48 ± 38.06     | 43.84 ± 35.29 | -                 | -      | -       | -      |
+
+<img width="585" height="763" alt="a7a2ee7294c8f94e9126c9b1500b6a7c" src="https://github.com/user-attachments/assets/1e636d9d-0a28-4212-82e4-9f67379bc2dc" />
+
