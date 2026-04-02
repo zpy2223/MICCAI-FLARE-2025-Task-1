@@ -4,6 +4,8 @@ MICCAI FLARE 2025 Task 1: Pan-cancer segmentation in CT scans
 
 **Official Website** :https://www.codabench.org/competitions/7149/#/pages-tab
 
+**Docker Download**: [Baidu NetDisk](https://pan.baidu.com/s/1odxPvTWg_ukxpIJ4q6tygA?pwd=ad82)
+
 # A Lightweight and Effective nnU-Net Framework for Whole-Body Pan-Cancer Segmentation
 
 ## Environments and Requirements
