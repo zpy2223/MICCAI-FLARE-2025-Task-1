@@ -6,6 +6,15 @@ MICCAI FLARE 2025 Task 1: Pan-cancer segmentation in CT scans
 
 **Docker Download**: [Baidu NetDisk](https://pan.baidu.com/s/1odxPvTWg_ukxpIJ4q6tygA?pwd=ad82)
 
+  ```bash
+  docker image load < hias25.tar.gz
+  
+  docker container run --gpus "device=all" --name hias25 --rm \
+    -v $PWD/inputs/:/workspace/inputs/ \
+    -v $PWD/outputs/:/workspace/outputs/ \
+    hias25:latest /bin/bash -c "sh predict.sh"
+  ```
+
 # A Lightweight and Effective nnU-Net Framework for Whole-Body Pan-Cancer Segmentation
 
 ## Environments and Requirements
